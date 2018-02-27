@@ -1,6 +1,7 @@
 {
-	"name": "Moodie",
+	"name": "moodie-ios",
 	"version": "1.0.0",
+	"license": "GPL-3.0",
 	"private": true,
 	"scripts": {
 		"start": "node node_modules/react-native/local-cli/cli.js start"
