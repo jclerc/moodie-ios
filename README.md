@@ -1,35 +1,48 @@
-# moodie-app
-📱 Moodie App for Phillips Hue | School Project
+<h1 align="center">
+  <img alt="moodie-ios" width="652" src="https://jclerc.github.io/assets/repos/banner/moodie-ios.jpg">
+  <br>
+</h1>
 
-## Requirements
-- [Node](https://nodejs.org) `4.x` or newer
-- [React Native](http://facebook.github.io/react-native/docs/getting-started.html) for development
-- [Xcode](https://developer.apple.com/xcode/) for iOS development
+<p align="center">
+  <img alt="made for: school" src="https://jclerc.github.io/assets/static/badges/made-for/school.svg">
+  <img alt="language: javascript" src="https://jclerc.github.io/assets/static/badges/language/javascript.svg">
+  <img alt="made in: 2016" src="https://jclerc.github.io/assets/static/badges/made-in/2016.svg">
+  <br>
+  <sub>Moodie app, to monitor and update colors of connected lights.</sub>
+</p>
+<br>
 
-## Stack
-- [React Native](https://facebook.github.io/react-native/) `^0.39.0` for building native apps using react
-- [Redux](http://redux.js.org) `^3.6.0` a predictable state container for JavaScript apps
-- [React Router](https://react-router.now.sh/) `^4.x.x` declarative routing for React.
+## Features
 
-## Make the awesome
-Clone the repo:
-```shell
-$ git clone https://github.com/LeoLeBras/moodie-app.git
-$ cd moodie-app
+- [x] Link Moodie to other apps
+- [x] Manually change mood – and thus light's color
+- [x] Interact with Moodie server
+
+## Stack used
+
+- React Native `0.39.0`
+- Redux `3.6.0`
+- React Router `4.0.0`
+
+## Getting started
+
+#### Requirements
+
+- Xcode
+- `yarn` (or `npm`)
+
+#### Installation
+
+```sh
+git clone https://github.com/jclerc/moodie-ios.git
+cd moodie-ios
+yarn # or `npm i`
+yarn start # or `npm start`
+open -a Xcode ios/Moodie.xcodeproj
 ```
 
-Install Node.js components:
-```shell
-$ yarn                          # Install Node.js components listed in ./package.json
-```
+Then build the project right from Xcode and run it.
 
-And see [Getting Started](https://facebook.github.io/react-native/docs/getting-started.html) to install requirement tools.
+## Notes
 
-### How to use ?
-```shell
-$ yarn start                    # or: node_modules/react-native/packager/packager.sh
-```
-Open ```Moodie.xcodeproj``` in Xcode, build and run the project.
-
-## Issues
-If you run into any issues please see the [Getting Started](http://facebook.github.io/react-native/docs/getting-started.html) guide for React Native before submitting an issue.
+- You may need to take a look at [Getting Started](https://facebook.github.io/react-native/docs/getting-started.html) to install required tools and troubleshoot common issues
